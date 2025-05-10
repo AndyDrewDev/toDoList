@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ua">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/main.css" />
+    <title>ToDo List</title>
+  </head>
+  
+  <body>
+    <div class="container">
+      <div class="display-4 mb-2">ToDo List</div>
+      <div class="h4 mb-5">Список задач на сьогодні</div>
+
+      <div class="card mb-4">
+        <ul id="taskList" class="list-group list-group-flush">
+        </ul>
+      </div>
+
+      <div class="card bg-light">
+        <div class="card-header">Додати нову задачу</div>
+        <div class="card-body">
+          <form id="form">
+            <div class="form-group">
+              <input
+                type="text"
+                class="form-control"
+                id="taskInput"
+                placeholder="Текст задачі"
+                required
+              />
+              <small id="emailHelp" class="form-text text-muted"
+                >Опишіть зміст нової задачі</small
+              >
+            </div>
+            <button type="submit" class="btn btn-primary btn-lg active">
+              Додати
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
