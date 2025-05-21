@@ -1,49 +1,48 @@
 # ToDo List
 
-Простий та зручний застосунок для керування щоденними задачами, створений за допомогою HTML, CSS та JavaScript.
+A simple and convenient application for managing daily tasks, created using HTML, CSS, and JavaScript.
 
-## Функціональність
+## Functionality
 
-- Додавання нових задач
-- Позначення задач як виконаних
-- Видалення задач
-- Автоматичне збереження задач у локальному сховищі браузера
-- Адаптивний дизайн (працює на різних пристроях)
+- Adding new tasks
+- Marking tasks as completed
+- Deleting tasks
+- Automatic saving of tasks in the browser's local storage
+- Responsive design (works on various devices)
 
-## Технології
+## Technologies
 
 - HTML5
 - CSS3
 - JavaScript (ES6+)
 - Local Storage API
-- Bootstrap 4 (базовий дизайн)
+- Bootstrap 4 (basic design)
 
+## Usage
 
-## Використання
+1. Enter the task text in the "Task text" field
+2. Click the "Add" button or press Enter
+3. To mark a task as completed, click the button with a checkmark
+4. To delete a task, click the button with an X
 
-1. Введіть текст задачі у поле "Текст задачі"
-2. Натисніть кнопку "Додати" або клавішу Enter
-3. Для позначення задачі як виконаної натисніть на кнопку з галочкою
-4. Для видалення задачі натисніть на кнопку з хрестиком
-
-## Структура проєкту
+## Project Structure
 
 ```
 .
-├── css/                # Стилі
-│   └── main.css        # Основні стилі додатку
-├── img/                # Зображення
-│   ├── leaf.svg        # Іконка для порожнього списку
-│   ├── tick.svg        # Іконка виконання задачі
-│   └── cross.svg       # Іконка видалення задачі
-├── js/                 # JavaScript файли
-│   └── main.js         # Основна логіка додатку
-├── index.html          # Головна сторінка
-└── README.md           # Цей файл
+├── css/                # Styles
+│   └── main.css        # Main application styles
+├── img/                # Images
+│   ├── leaf.svg        # Icon for empty list
+│   ├── tick.svg        # Icon for completing a task
+│   └── cross.svg       # Icon for deleting a task
+├── js/                 # JavaScript files
+│   └── main.js         # Main application logic
+├── index.html          # Main page
+└── README.md           # This file
 ```
 
-## Особливості
+## Features
 
-- Задачі зберігаються у локальному сховищі браузера, тому вони будуть доступні навіть після закриття браузера
-- Мінімалістичний та зручний інтерфейс
-- Не потребує серверної частини - працює повністю на стороні клієнта
+- Tasks are stored in the browser's local storage, so they will be available even after closing the browser
+- Minimalistic and user-friendly interface
+- No server-side requirements - works completely on the client side
